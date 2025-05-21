@@ -26,7 +26,7 @@ st.title("Formula 1 World Championship Data - Drivers")
 if show_cats:
     st.header("Cats are driving!")
     st.text("Join them!")
-    img = Image.open("C:/Users/talin/Desktop/osu/3k_2sem/Streamlit/catsdriving.jpg")
+    img = Image.open("catsdriving.jpg")
     st.image(img, width=1000)
 
 st.markdown(f"<hr style='border-color: {color}'>", unsafe_allow_html=True)
