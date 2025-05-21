@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-# import plotly.express as px
 from PIL import Image
 
 def load_data():
@@ -35,9 +34,6 @@ if show_cats:
 st.markdown(f"<hr style='border-color: {color}'>", unsafe_allow_html=True)
 st.header("Information about Formula 1 drivers")
 
-
-# fig = px.histogram(df, x='nationality', title='Distribution by country',color_discrete_sequence=[color])
-# st.plotly_chart(fig)
 
 sort_option = st.radio(
     "Sort:",
