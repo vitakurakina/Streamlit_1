@@ -4,10 +4,7 @@ import numpy as np
 import plotly.express as px
 from PIL import Image
 
-def load_data():
-    file_path = "drivers.csv"
-    return pd.read_csv(file_path)
-df = load_data()
+df = pd.read_csv('Dataset/drivers.csv')
 
 with st.sidebar:
     st.header("Settings")
