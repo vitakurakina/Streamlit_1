@@ -5,7 +5,7 @@ import plotly.express as px
 from PIL import Image
 
 def load_data():
-    file_path = "C:/Users/talin/Desktop/osu/3k_2sem/Streamlit/Dataset/drivers.csv"
+    file_path = "Dataset/drivers.csv"
     return pd.read_csv(file_path)
 df = load_data()
 
